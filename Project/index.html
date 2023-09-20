@@ -10,48 +10,19 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      body {
-        background-color: #f9f6f2;
-        color: #f9f6f2;
-        font-family: "Poppins", sans-serif;
-      }
-
-      nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 45px;
-        background-color: #1d1a1c;
-        border-radius: 90px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        width: 80%;
-        position: absolute;
-        left: 10%;
-      }
-      nav ul {
-        display: flex;
-        justify-content: center;
-      }
-      nav ul li {
-        list-style: none;
-        margin: 0 12px;
-      }
-      .cdlogo {
-        height: 54px;
-        position: absolute;
-        top: -4px;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <div class="left"><img class="cdlogo" src="icons/chaitanya dankhade-logos_white simple.png" alt=""></div>
+        <div class="left">
+          <img
+            class="cdlogo"
+            src="icons/chaitanya dankhade-logos_white simple.png"
+            alt=""
+          />
+        </div>
+
         <div class="right">
           <ul>
             <li>Home</li>
@@ -61,5 +32,9 @@
         </div>
       </nav>
     </header>
+
+    <main>
+      <div><img id="hello" src="images/Mask group.png" alt="" /></div>
+    </main>
   </body>
 </html>
