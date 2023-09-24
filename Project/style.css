@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-color: #f9f6f2;
+  background-color: #faf5ee;
   font-family: "Poppins", sans-serif;
 }
 
@@ -34,6 +34,8 @@ nav ul li {
   top: -4px;
 }
 #hello {
+  position:relative;
+  z-index: ;
   width: 50%;
   height: 10%;
   margin: 339px 0px 0px 412px;
