@@ -61,7 +61,7 @@ nav ul li {
     opacity: 1;
   }
 }
-/* .pyramid-loader {
+.pyramid-loader {
   position: relative;
   width: 300px;
   height: 150px;
@@ -130,4 +130,4 @@ nav ul li {
   margin: auto;
   transform: rotateX(90deg) translateZ(-40px);
   filter: blur(12px);
-} */
+}
