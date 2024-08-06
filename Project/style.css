@@ -38,7 +38,7 @@ nav ul li {
 }
 #hello {
   position:relative;
-  z-index: ;
+  z-index: index -1; ;
   width: 50%;
   height: 10%;
   margin: 339px 0px 0px 412px;
